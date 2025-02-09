@@ -94,7 +94,7 @@ body {
     height: 100%;
     width: 180px;
     font-weight: 600px;
-    border-radius: 8px;
+    border-radius: 50px;
     letter-spacing: 1px;
     font-size: 19px;
     border: 1px solid #f01e2c;
@@ -160,4 +160,3 @@ body {
     border-radius: 50%;
     transition: 1s ease;
 }
-
