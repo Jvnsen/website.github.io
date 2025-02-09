@@ -1,0 +1,163 @@
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #080e12;
+    color: #ededed;
+}
+
+.header {
+    position: fixed;
+    top: 0; 
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 30px;
+    color: #f01e2c;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 10px;
+    transition: 0.3s ease;
+}
+
+.logo:hover {
+    text-shadow: 0 0 25px #f01e2c;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    border-bottom: 2px solid transparent;
+    transition: 0.3s ease;
+}
+
+.navbar a.active {
+    font-weight: 500;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    font-weight: 500;
+    color: #f01e2c;
+    border-bottom: 2px solid #f01e2c;
+    z-index: 1;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    padding: 0 10%;
+}
+
+.home-content {
+    max-width: 600px;
+}
+
+.home-content h1 {
+    text-align: right;
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.home-content h3 {
+    font-size: 32px;
+    font-weight: 600;
+    color: #f01e2c;
+    text-align: right;
+}
+
+.home-content p {
+    text-align: right;
+    font-size: 16px;
+    margin: 20px 0 50px;
+    line-height: 1.2;
+}
+
+.btn-box {
+    padding: 5px;
+    height: 100%;
+    width: 180px;
+    font-weight: 600px;
+    border-radius: 8px;
+    letter-spacing: 1px;
+    font-size: 19px;
+    border: 1px solid #f01e2c;
+    transition: 0.5s ease;
+    text-align: center;
+    position: relative;
+    left: 420px;
+    top: 30px;
+}
+
+.btn-box a {
+    color:#f01e2c;
+    text-decoration: none;
+    transform: scale(1.5);
+}
+
+.btn-box:hover {
+    color: #1b1b1b;
+    background-color: #f01e2c;
+    box-shadow: 0 0 25px #f01e2c;
+}
+
+.home-icons {
+    position: absolute;
+    bottom: 40px;
+    width: 170px;
+    display: flex;
+    justify-content: space-between; 
+    position: relative;
+    top: 85px;
+    right: 170px;
+}
+
+.home-icons a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    font-size: 20px;
+    color: #f01e2c;
+    text-decoration: none;
+    border: 0.7px solid #f01e2c;
+    border-radius: 50px;
+    transition: 0.7s ease; 
+}
+
+.home-icons a:hover {
+    color: #1b1b1b;
+    background-color: #f01e2c;
+    box-shadow: 0 0 25px #f01e2c;
+}
+
+.logo-image img {
+    height: 350px;
+    width: 350px;
+    position: absolute;
+    left: 840px;
+    top: 160px;
+    bottom: 0;
+    border: 2px solid #f01e2c;
+    border-radius: 50%;
+    transition: 1s ease;
+}
+
